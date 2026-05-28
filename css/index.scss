@@ -1,0 +1,73 @@
+$azul-escuro: #180f4a;
+$black: black;
+$backgroudnav: #32afc5;
+$navbar: #3bd9f5;
+
+$white: white;
+
+@import './_logo.scss';
+@import './_navbar.scss';
+@import './menu';
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background: #32afc5;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    // border: 1px solid $black;
+
+    h2 {
+        font-weight: 900;
+        font-size: 20px;
+        color: $black;
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        color: $black;
+        text-align: left;
+        font-size: 20px;
+    }
+}
+
+.contact-btn {
+    display: inline-block;
+    background: $navbar;
+    padding: 20px;
+    color: $black;
+    text-decoration: none;
+    border-radius: 80px;
+
+    &:hover {
+        background: #180f4a;
+        color: $white;
+    }
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    // border: 1px solid $black;
+
+}
