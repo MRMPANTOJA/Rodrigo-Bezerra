@@ -22,6 +22,9 @@
   align-items: center;
   position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .menu {
@@ -55,24 +58,30 @@ body {
   background: #32afc5;
   justify-content: center;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 100px;
+  overflow: hidden;
 }
 
 .headline {
   margin-left: 10%;
   flex: 40%;
+  padding-top: 20px;
 }
 .headline h2 {
   font-weight: 900;
   font-size: 20px;
   color: black;
   padding: 0;
+  padding-top: 0;
+  padding-bottom: 10px;
   margin: 0;
 }
 .headline p {
   color: black;
   text-align: left;
   font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .contact-btn {
@@ -82,6 +91,7 @@ body {
   color: black;
   text-decoration: none;
   border-radius: 80px;
+  margin-bottom: 100px;
 }
 .contact-btn:hover {
   background: #180f4a;
@@ -91,4 +101,80 @@ body {
 .img-headline {
   margin-right: 10%;
   flex: 40%;
+}
+
+section {
+  background: #32afc5;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 5%;
+  text-align: center;
+  /* border: 1px solid black; */
+  /* height: 400px; */
+  /* width: 90%; */
+}
+section h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-weight: bold;
+  color: black;
+  /* color: #3e231f; */
+}
+
+.servicos {
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  /* vertical-align: top; */
+  /* box-sizing: border-box; */
+}
+.card:hover {
+  background: #180f4a;
+  color: #ffffff;
+  padding: 40px;
+}
+.card:hover img {
+  display: none;
+}
+.card:hover .front {
+  display: none;
+}
+.card:hover .end {
+  display: block;
+}
+
+.end {
+  display: none;
+}
+
+footer {
+  margin-top: 0px;
+  height: 400px;
+  background-image: linear-gradient(180deg, #32afc5, #180f4a, black);
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.logo.rodape {
+  padding: 100px;
+}
+
+.agencia {
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 4px 4px 3px #180f4a;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=index.css.map */
