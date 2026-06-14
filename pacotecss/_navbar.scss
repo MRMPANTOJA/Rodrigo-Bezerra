@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: $navbar;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}

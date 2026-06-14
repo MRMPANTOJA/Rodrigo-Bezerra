@@ -24,7 +24,8 @@ body {
 .header {
     display: flex;
     flex-flow: row wrap;
-    background: #32afc5;
+    // background: #32afc5;
+    background-image: linear-gradient(180deg, $backgroudnav, $azul-escuro, $black);
     justify-content: center;
     align-items: center;
     padding-top: 100px;
@@ -49,7 +50,7 @@ body {
     }
 
     p {
-        color: $black;
+        color: $white;
         text-align: left;
         font-size: 20px;
         margin-top: 0px;
@@ -73,6 +74,7 @@ body {
         color: $white;
     }
 }
+
 .contact-2btn {
     display: inline-block;
     background: $navbar;
@@ -90,7 +92,8 @@ body {
         color: $white;
     }
 }
-    .contact-3btn {
+
+.contact-3btn {
     display: inline-block;
     background: $navbar;
     padding: 20px;
@@ -198,7 +201,7 @@ section {
 footer {
     margin-top: 0px;
     height: 400px;
-    background-image: linear-gradient(180deg, $backgroudnav, $azul-escuro, $black);
+    background-image: linear-gradient(180deg, $black, $azul-escuro, $backgroudnav);
     text-align: center;
     border-top: 1px solid $black;
 }
