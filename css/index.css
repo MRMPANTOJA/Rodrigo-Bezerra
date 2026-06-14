@@ -98,6 +98,21 @@ body {
   color: white;
 }
 
+.contact-2btn {
+  display: inline-block;
+  background: #3bd9f5;
+  padding: 20px;
+  margin-left: 5%;
+  color: black;
+  text-decoration: none;
+  border-radius: 80px;
+  margin-bottom: 100px;
+}
+.contact-2btn:hover {
+  background: #180f4a;
+  color: white;
+}
+
 .img-headline {
   margin-right: 10%;
   flex: 40%;
